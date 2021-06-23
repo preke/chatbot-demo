@@ -14,7 +14,8 @@ urlpatterns = [
     path('api/logout/', views.logout_view, name='logout_view'),
     path('api/findstaff/', views.findstaff, name='findstaff'),
     path('api/updatestaff/', views.updatestaff, name='updatestaff'),
-    path('api/addstud/', views.addstud, name='addstud')
+    path('api/addstud/', views.addstud, name='addstud'),
+    path('api/appointstaff/', views.appointstaff, name='appointstaff')
 ]
 
 debug_urls = [
